@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: normal;
+}
+
+.oportunities{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    margin: 10px 150px;
+}
+
+.description{
+    width: 70%;
+    margin: 30px 0px;
+    color: #7C818A;
+}
+
+.description-heading{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.car{
+    width: 50%;
+}
+
+div{
+    display: flex;
+}
+
+.chain .price .clients{
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    font-weight: bold;
+}
+
+span, p{
+    color: #7C818A;
+}
+
+p{
+    margin-top: 5px;
+}

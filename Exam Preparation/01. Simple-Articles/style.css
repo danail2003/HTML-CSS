@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body{
+    margin: 0;
+    color: #82919F;
+    font-family: 'Lato', sans-serif;
+}
+
+h3, .price{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+section > article{
+    width: 450px;
+    height: 250px;
+}
+
+article{
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.first-article{
+    background-color: rgb(227,243,253);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+i{
+    color: #44A9F8;
+    padding-right: 5px;
+}
+
+.second-article{
+    border: 3px solid #44A9F8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.price{
+    color: #44A9F8;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    right: 30px;
+}
+
+.month{
+    position: relative;
+    bottom: 22px;
+    left: 30px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px 30px;
+    background-color: #44A9F8;
+    border-radius: 3px;
+    border: none;
+    color: white;
+}

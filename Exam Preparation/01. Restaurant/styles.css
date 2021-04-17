@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFD9B0;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.image-article{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+img{
+    width: 70%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.booking{
+    background-color: #111111;
+    padding: 77px 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+h1{
+    position: relative;
+    bottom: 40px;
+    color: #EFF8FC;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+p{
+    position: relative;
+    bottom: 70px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    border-bottom: 1px solid #969090;
+    color: #969090;
+}
+
+button{
+    position: relative;
+    bottom: 80px;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #EDB77D;
+    color: white;
+}

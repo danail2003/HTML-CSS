@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px 100px;
+}
+
+.travel {
+    display: flex;
+    margin-left: 170px;
+    margin-top: -200px;
+}
+
+.bus {
+    text-align: center;
+    background: #04204C;
+    height: 315.7px;
+}
+
+img {
+    width: 100%;
+    opacity: 30%;
+}
+
+.description {
+    margin-right: 150px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+i {
+    color: #EC8421;
+    font-size: 40px;
+}
+
+.fa-times {
+    position: absolute;
+    right: 110px;
+    top: 55px;
+    color: white;
+    font-size: 20px;
+}

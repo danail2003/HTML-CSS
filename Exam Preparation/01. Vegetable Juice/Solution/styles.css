@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Serif', serif;
+    display: flex;
+    margin: 50px 230px;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+}
+
+.container {
+    width: 50%;
+    background-image: url('../Requirements-and-Resources/image/image1.png');
+    background-repeat: no-repeat;
+}
+
+header, main {
+    margin: 0 30px;
+}
+
+img {
+    width: 60%;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px dotted #748A0A;
+    margin-bottom: 5px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head > span {
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+div {
+    flex-direction: column;
+}
+
+.grams {
+    color: #748A0A;
+}
+
+.values > p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.general {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    border: 1px solid #748A0A;
+    padding: 3px 40px;
+}
+
+.description {
+    margin: 50px 0;
+}
