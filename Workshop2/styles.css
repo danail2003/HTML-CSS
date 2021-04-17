@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif:ital@1&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+html{
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    margin: 0 20px;
+    overflow-x: hidden;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 40px;
+    color: #474747;
+}
+
+li > a:hover{
+    color: #50B9E1;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header > div{
+    text-align: center;
+}
+
+.site-name > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.corner{
+    color: #50B9E1;
+}
+
+header > nav > ul > i{
+    margin-right: 5px;
+    border: 1px solid #474747;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.kids > p, .kids > button{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+}
+
+.kids > img{
+    width: 1310px;
+    height: 660px;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.kids > p{
+    color: white;
+    font-size: 60px;
+    width: 450px;
+    font-weight: bold;
+}
+
+.kids > button{
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.kids > button:hover{
+    background-color: #50B9E1;
+    color: white;
+    border: none;
+    padding: 7px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.welcome > h1, .welcome > p{
+    color: #5A7C8A;
+    text-align: center;
+}
+
+.welcome > p{
+    width: 60%;
+}
+
+.offerings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #50B9E1;
+    font-family: 'PT Serif', serif;
+}
+
+.offerings > h1{
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.offerings > article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.offerings > article > p{
+    color: white;
+}
+
+.offerings > article > span{
+    color: white;
+    font-weight: bold;
+}
+
+.offerings > article > img, .offerings > article{
+    width: 30%;
+}
+
+.upcoming{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #5A7C8A;
+}
+
+.upcoming > h1{
+    font-family: 'PT Serif', serif;
+}
+
+.upcoming > p{
+    width: 200px;
+}
+
+.upcoming > h1, .upcoming > p{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.upcoming > article{
+    width: 25%;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.upcoming > article > div{
+    border-bottom: 2px solid #5A7C8A;
+    padding-bottom: 12px;
+}
+
+.upcoming > article > img{
+    width: 100%;
+    height: 50%;
+}
+
+.date{
+    margin-right: 145px;
+}
+
+.price{
+    font-size: 20px;
+    background-color: #50B9E1;
+    padding: 5px;
+    color: white;
+}
+
+.soccer{
+    margin: 0;
+    font-weight: bold;
+}
+
+.upcoming > article > button{
+    margin-right: 215px;
+    color: #50B9E1;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid #50B9E1;
+}
+
+.upcoming > article > button:hover{
+    background-color: #50B9E1;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #50B9E1;
+    color: #5A7C8A;
+    padding: 20px 30px;
+}
+
+footer > div > i{
+    margin-left: 20px;
+}
