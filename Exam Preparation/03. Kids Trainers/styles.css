@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #41BEAD;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.logo {
+    height: 40px;
+    margin-left: 50px;
+}
+
+ul {
+    margin-right: 100px;
+}
+
+nav > ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.mentors {
+    text-align: center;
+    background-color: #FFB402;
+    color: white;
+}
+
+.mentors > div {
+    display: flex;
+    justify-content: center;
+}
+
+.mentors > h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.mentors > div > p {
+    padding: 0 300px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+.two-lectors {
+    display: flex;
+}
+
+.lector {
+    margin: 70px;
+}
+
+.lector > img {
+    height: 120px;
+    margin-right: 20px;
+    border: 5px solid #45C0AF;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.lector {
+    display: flex;
+}
+
+.name {
+    color: #45C0AF;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+}
+
+.position {
+    color: #D0D2D5;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.desc {
+    color: #565656;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.other-mentors {
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#other-images {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 130px;
+}
+
+.team {
+    text-align: center;
+    background-color: #66B9F8;
+    padding: 50px 300px;
+    border-top: 10px solid #93CDFB;
+}
+
+.team > h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team > p {
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Helvetica', sans-serif;
+}
+
+form {
+    padding-bottom: 60px;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.send {
+    color: white;
+    background-color: #FF9100;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border-style: none;
+    margin-left: 30px;
+    box-shadow: 3px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #565656;
+    color: white;
+    border-top: 10px solid #8F8F8F;
+}
+
+.last-articles > h2 {
+    font-size: 20px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.last-articles > p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+}
+
+i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social {
+    margin-right: 100px;
+}

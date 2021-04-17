@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    background-color: #234465;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    width: 30%;
+}
+
+.logo > button{
+    margin-left: 15px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #FFA000;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav > nav > ul{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav > nav > ul > li{
+    font-size: 15px;
+    list-style: none;
+    margin: 15px;
+    color: #8F9FB2;
+    font-weight: bold;
+}
+
+.fa-search{
+    margin-right: 20px;
+    color: #8F9FB2;
+}
+
+.nav > button{
+    color: white;
+    padding: 5px 12px;
+    background-color: #FFA000;
+    border-style: none;
+    border-radius: 50px;
+}
+
+.links{
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.links > a{
+    margin-right: 20px;
+    color: #FFA000;
+}
+
+#open-courses{
+    color: #234465;
+    border-bottom: 1px solid #234465;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.wordpress-course{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url('../Requirements-and-Resources/images/details-background.png');
+    height: 230px;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.wordpress-course > h1{
+    font-size: 40px;
+    color: white;
+}
+
+.wordpress-course > div > i{
+    color: white;
+}
+
+.wordpress-course > div > span{
+    margin-right: 10px;
+    color: white;
+}
+
+.request{
+    margin-top: 20px;
+    background-color: #FFA000;
+    border-style: none;
+    border-radius: 50px;
+    padding: 7px 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.for-course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+    padding: 0px 60px;
+    padding-bottom: 20px;
+    background-color: #F2F2F2;
+}
+
+
+
+.for-course > h1:after{
+    content: "";
+    width: 7%;
+    right: 625px;
+    bottom: 190px;
+    height: 4px;
+    position: absolute;
+    background-color: #ffa000;
+}
+
+.for-course > h1, .for-course > p{
+    color: #234465;
+}
+
+.wordpress-logo{
+    position: absolute;
+    right: 950px;
+    bottom: -130px;
+    width: 40%;
+    z-index: -1;
+    transform: rotate(20deg);
+    opacity: 0.8;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    margin: 0 150px;
+}
+
+.experience > h1{
+    color: #234465;
+}
+
+.experience > h1:after{
+    content: "";
+    width: 27%;
+    top : 775px;
+    right: 490px;
+    height: 4px;
+    position: absolute;
+    background-color: #ffa000;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+}
+
+.skills > article{
+    margin-right: 100px;
+}
+
+.skills > article > p{
+    color: #565861;
+}
+
+.skills > article > p > i{
+    color: #FFA000;
+}
+
+.themes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    margin: 20px 150px;
+}
+
+.themes > h1{
+    color: #234465;
+}
+
+.themes > h1::after{
+    content: "";
+    background-color: #FFA000;
+    width: 4%;
+    height: 4px;
+    position: absolute;
+    top: 983px;
+    right: 647px;
+}
+
+.themes > div{
+    display: flex;
+    padding-left: 80px;
+}
+
+.themes > div > article{
+    margin-right: 100px;
+}
+
+.themes > div > article > div{
+    margin-bottom: 10px;
+    background-color: #DADADA;
+    height: 20px;
+    padding: 7px 0;
+    width: 400px;
+}
+
+.count{
+    margin-right: 10px;
+    color: #234465;
+    font-weight: bold;
+    border-left: 3px solid #234465;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.lection{
+    color: #56585A;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main > div{
+    background-color: #F2F2F2;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.for-who{
+    background-color: #FFA000;
+    padding: 10px 20px;
+}
+
+.for-who > h1{
+    text-align: center;
+    color: white;
+}
+
+.for-who > h1::after{
+    content: "";
+    width: 25%;
+    background-color: white;
+    height: 5px;
+    position: absolute;
+    top: 1395px;
+    right: 503px;
+}
+
+.for-who > p{
+    color: white;
+    padding: 0 50px;
+}
+
+.sign-in-course > article > h2{
+    color: #FFA000;
+    font-size: 15px;
+    margin-bottom: 1px;
+    padding: 5px 15px;
+}
+
+.sign-in-course > article > p{
+    margin-top: 0px;
+    color: #565861;
+    padding: 5px 15px;
+}
+
+.here{
+    color: #234465;
+}
+
+#attendance, #online{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+#attendance > h2, #online > h2{
+    color: white;
+}
+
+#attendance > ul, #online > ul{
+    padding-right: 150px;
+}
+
+#attendance{
+    background-color: #234465;
+}
+
+#online{
+    background-color: #FFA000;
+}
+
+#attendance > ul > li, #online > ul > li{
+    color: white;
+}
+
+.lector{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F2F2F2;
+    padding: 30px 50px;
+}
+
+.lector > h1{
+    text-align: center;
+    color: #234465;
+    margin-top: 0;
+}
+
+.lector > h1::after{
+    content: "";
+    width: 12%;
+    height: 5px;
+    position: absolute;
+    background-color: #FFA000;
+    top: 2005px;
+    right: 595px;
+}
+
+.lector > article{
+    display: flex;
+    align-items: center;
+}
+
+.lector > article > img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.lector > article > div{
+    margin-left: 50px;
+    padding-right: 100px;
+}
+
+.lector > article > div > h2{
+    color: #234465;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.lector > article > div > p{
+    color: #56585A;
+}
+
+.general{
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 0;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 150px;
+    background-color: #234465;
+    margin-top: 50px;
+}
+
+footer > article > h3{
+    font-size: 14px;
+    color: #FFA000;
+}
+
+footer > article > p{
+    color: white;
+    font-size: 12px;
+}
+
+footer > article > i{
+    margin-left: 10px;
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.rights{
+    max-width: 250px;
+}

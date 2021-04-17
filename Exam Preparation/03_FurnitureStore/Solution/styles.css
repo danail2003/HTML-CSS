@@ -1,0 +1,188 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body{
+    margin: 0 auto;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #F0E4E4;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #F93700;
+    color: white;
+}
+
+main{
+    margin: 0 50px;
+}
+
+.my-account{
+    padding: 5px 40px;
+    padding-left: 20px;
+}
+
+article > label > input{
+    width: 300px;
+    padding: 5px 5px;
+    color: #B6AFAF;
+}
+
+nav > ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.fa-search{
+    position: relative;
+    bottom: 0.5px;
+    background-color: #B6AFAF;
+    padding: 8.5px 20px;
+    border-style: none;
+    font-size: 11px;
+}
+
+.rooms{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.rooms > article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rooms > article > img{
+    width: 70%;
+}
+
+.rooms > article > span{
+    color: #B6AFAF;
+}
+
+.falls{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.falls > article > h1{
+    font-size: 30px;
+    color: #F93700;
+    padding-bottom: 0px;
+}
+
+.falls > article > p{
+    color: #B6AFAF;
+}
+
+.falls > article > button{
+    background-color: #F93700;
+    color: white;
+    padding: 10px 15px;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.falls > img{
+    width: 50%;
+    margin-left: 280px;
+}
+
+.services{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    background-color: #B6AFAF;
+    margin-left: 36px;
+    padding-top: 10px;
+}
+
+.services > article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services > article > h2{
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #474242;
+}
+
+.services > article > p{
+    font-size: 12px;
+    margin-top: 6px;
+    color: #5F5B5C;
+}
+
+.services > img{
+    background-color: white;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.deals, .service{
+    width: 20%;
+    background-color: #E6D6D6;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+.free{
+    margin-left: 70px;
+}
+
+.amazing{
+    margin-left: 100px;
+}
+
+.shipping{
+    background-color: #E6D6D6;
+    width: 52%;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+footer > ul{
+    display: flex;
+    padding-left: 0px;
+}
+
+footer > ul > li{
+    color: #B6AFAF;
+    margin: 0px 10px;
+    align-items: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.like-button{
+    padding: 3px 40px;
+    background-color: #B6AFAF;
+    color: black;
+}
+
+footer > ul > i{
+    color: #B6AFAF;
+    margin: 5px 5px;
+}

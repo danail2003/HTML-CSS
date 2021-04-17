@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    background-image: url('../Requirements-and-Resources/image/image.jpg');
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.interior {
+    border: 2px solid black;
+    border-style: none;
+    box-shadow: 2px 5px 13px 0px rgba(0,0,0,0.75);
+    width: 10%;
+    height: 20%;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+.interior > h1 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.description {
+    width: 20%;
+    height: 30%;
+    margin-right: 30px;
+    margin-top: 250px;
+    color: white;
+    background: rgb(159,150,142);
+    background: linear-gradient(90deg, rgba(159,150,142,1) 35%, rgba(205,202,200,1) 100%);
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 5px 13px 0px rgba(0,0,0,0.75);
+}
+
+.description > h1 {
+    color: #756F6C;
+    padding-left: 220px;
+    margin-bottom: 0;
+    font-size: 50px;
+    margin-top: 2px;
+}
+
+.description > p {
+    margin-top: 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+.services {
+    background-color: #F2F0F3;
+    width: 90%;
+    padding: 20px 50px;
+}
+
+i {
+    margin-right: 10px;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 100%;
+    color: white;
+}
+
+.contact {
+    background-color: #F2F0F3;
+    width: 90%;
+    padding: 20px 50px;
+}
+
+.contact > span {
+    margin-right: 10px;
+}
+
+.contact::after {
+    content: '';
+    width: 63%;
+    height: 1px;
+    background-color: #333333;
+    position: absolute;
+    right: 450px;
+    bottom: -860px;
+}
+
+.input {
+    margin-top: 20px;
+}
+
+.input > input {
+    background-color: #BAB1AD;
+    border-radius: 3px;
+    border-style: none;
+    padding: 5px 10px;
+}
+
+.input > input::placeholder {
+    color: white;
+}
+
+button {
+    background-color: #67784D;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.sizes {
+    width: 70%;
+    background-color: #BAB1AD;
+}
+
+.sizes > div {
+    margin-left: 40px;
+}
+
+.values {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.desc {
+    margin-top: 0;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}

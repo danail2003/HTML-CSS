@@ -1,0 +1,28 @@
+@media all and (max-width: 768px){
+    .main-movie-poster{
+        display: none;
+    }
+
+    iframe{
+        height: 350px;
+        width: 470px;
+    }
+}
+
+@media all and (max-width: 414px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie-list{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    iframe{
+        height: 250px;
+        width: 300px;
+    }
+}
