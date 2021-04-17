@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    margin-right: 20px;
+}
+
+.creative-logo {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.links {
+    display: flex;
+}
+
+.links > li {
+    list-style: none;
+    margin-right: 30px;
+    color: #54546D;
+    font-weight: bold;
+}
+
+footer > p {
+    text-align: center;
+    background-color: #54546D;
+    color: #8E8CA1;
+    padding: 30px 0;
+    margin-bottom: 0;
+}
+
+.courses > img {
+    background-color: #54546D;
+    padding-right: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    right: 80px;
+}
+
+.courses > h1 {
+    position: absolute;
+    bottom: 450px;
+    right: 650px;
+    z-index: 1;
+    color: white;
+}
+
+.boxes {
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.boxes > article {
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: #54546D;
+}
+
+.prices {
+    display: flex;
+    color: white;
+}
+
+.in-class {
+    margin: 0 25px;
+    padding-right: 5px;
+    border-right: 2px solid white;
+}
+
+.candidate {
+    padding: 8px 15px;
+    border-style: none;
+    background-color: #9A5DC6;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.gradient {
+    background-image: linear-gradient(to right top, #089f41, #1dab4f, #2bb75c, #37c36a, #42cf78);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    padding: 1px 0px;
+}
+
+.blue {
+    color: white;
+    background-image: linear-gradient(to right top, #4e6f8d, #53799d, #5784ad, #5c8ebd, #6199ce);
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.violet {
+    background-image: linear-gradient(to right top, #4c39a7, #5c49b5, #6c5ac3, #7b6bd2, #8b7ce0);
+    color: white;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+.description-for-course {
+    font-size: 15px;
+}
+
+.in-class, .online {
+    text-align: center;
+}
+
+.post-bank {
+    margin: 10px 0px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.post-bank > article {
+    width: 70%;
+    color: #54546D;
+}
+
+.post-bank > div {
+    align-self: center;
+}
+
+.attendance-online {
+    margin-bottom: 50px;
+    margin-top: 250px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #54546D;
+}
+
+.gray {
+    background-color: #E6E6E6;
+    padding: 5px 0;
+}
+
+.light-gray {
+    background-color: #F8F8F8;
+    padding: 5px 0;
+}
+
+i {
+    position: absolute;
+    left: 1100px;
+}
+
+.fa-check {
+    color: #15A947;
+}
+
+.fa-times {
+    color: #FB4C50;
+}
+
+.icon {
+    position: relative;
+    bottom: 41px;
+}

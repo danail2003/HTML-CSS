@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 200px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.general, .container {
+    height: 500px;
+    width: 50%;
+}
+
+.container {
+    background-color: #F6F7F8;
+}
+
+h2 {
+    text-align: center;
+    color: #4C515A;
+}
+
+.spans {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    width: 150px;
+    text-align: center;
+    width: 38%;
+}
+
+.container > div {
+    margin-bottom: 30px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.gender-age {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    height: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button > button {
+    margin-top: 30px;
+    width: 100%;
+    color: white;
+    border-style: none;
+    background-color: #05A2D3;
+    padding: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.joint {
+    margin-right: 30px;
+}
+
+.standart {
+    background-color: #EFE562;
+    border-style: none;
+    padding: 5px;
+}
+
+.metric {
+    background-color: #E0E0DF;
+    border-style: none;
+    padding: 5px;
+}
+
+.only {
+    align-self: flex-end;
+}
+
+.weight {
+    width: 80%;
+}
+
+select {
+    margin-right: 30px;
+    width: 177px;
+    height: 31px;
+}
