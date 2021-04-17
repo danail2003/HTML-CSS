@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+header > img{
+    margin-right: 230px;
+    padding-left: 20px;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav > ul > li{
+    color: #54546D;
+}
+
+button{
+    border: none;
+    padding: 5px 12px;
+    border-radius: 50px;
+    color: white;
+    background-color: #9858C4;
+    margin-left: 5px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.diploma{
+    display: flex;
+}
+
+.award{
+    position: absolute;
+    right: -60px;
+    background-color: #54546D;
+    border-radius: 100%;
+    padding: 100px 300px;
+    padding-right: 50px;
+    text-align: end;
+    bottom: 270px;
+    z-index: -1;
+}
+
+.images, .diploma-certificates{
+    margin: 30px 70px;
+}
+
+.diploma-header{
+    color: #5E5C70;
+}
+
+.certificate{
+    color: #393F48;
+}
+
+.credits{
+    font-size: 12px;
+    color: #878996;
+}
+
+.state-certificates{
+    display: flex;
+    padding: 20px 50px;
+    background-color: #14162B;
+    color: white;
+}
+
+.state-certificates > article{
+    align-self: center;
+}
+
+.state-certificates > img{
+    position: relative;
+    top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.career{
+    display: flex;
+    margin: 50px 70px;
+}
+
+.career > article > h1{
+    color: #56556D;
+}
+
+.career > article > p{
+    color: #4C4C4C;
+}
+
+.career > img{
+    margin-right: 30px;
+}
+
+.email{
+    margin-top: 40px;
+    background-color: #9858C4;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2C2C3A;
+}
+
+footer > article {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+footer > article > h1{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #7C4F9F;
+}
+
+footer > article > ul > li{
+    margin-left: 0;
+    color: white;
+}
+
+.all-iniciatives{
+    margin-top: 0;
+}
+
+footer > article > ul{
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.all-educations{
+    margin-bottom: 2px;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+    margin: 20px 10px;
+}
+
+.links > p{
+    color: white;
+}
+
+.softuni{
+    margin-bottom: 0;
+}
+
+.rights{
+    margin-top: 5px;
+}
