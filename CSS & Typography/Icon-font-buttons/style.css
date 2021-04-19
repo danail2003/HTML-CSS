@@ -1,0 +1,22 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+p {
+    margin-top: 50px;
+}
+
+.green{
+    margin: 12px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: unset;
+}
+
+.orange{
+    margin: 12px;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: unset;
+}
+

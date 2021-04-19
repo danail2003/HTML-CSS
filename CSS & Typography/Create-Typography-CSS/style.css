@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 30px;
+}
+
+.first {
+    font-size: 27px;
+}
+
+.heading {
+    font-family: Georgia, serif;
+}
+
+table, td {
+    border: 1px solid rgb(180, 180, 180);
+    border-collapse: collapse;
+    padding-right: 380px;
+}
+
+.quote {
+    border-left: rgb(221, 221, 221) solid;
+    font-style: italic;
+    padding-left: 15px;
+}
+
+.row:nth-child(odd) {
+    background-color: rgb(221, 221, 221);
+}
+
+thead {
+    background-color: rgb(180, 180, 180);
+}
+
+.creator {
+    text-align: right;
+}
