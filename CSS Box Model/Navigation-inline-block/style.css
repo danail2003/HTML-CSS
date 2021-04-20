@@ -1,0 +1,28 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+a{
+    margin: 0 15px;
+    color: green;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+hr{
+    border: 1px solid;
+}
+
+.heading nav,
+.heading h1{
+    display: inline-block;
+}

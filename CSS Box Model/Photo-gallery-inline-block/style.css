@@ -1,0 +1,25 @@
+body{
+    max-width: 1250px;
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+}
+
+.gallery{
+    width: 90%;
+    margin: 30px auto;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border: 0.4rem solid black;
+    vertical-align: middle;
+    max-width: 300px;
+    max-height: 450px;
+    margin: 10px 0;
+}
+
+img{
+    max-width: 100%;
+}
