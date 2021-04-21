@@ -1,0 +1,55 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(221, 221, 221);
+    width: 85%;
+    margin: auto;
+}
+
+main {
+    border-top: 2px solid gray;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.firstArticle {
+    text-align: left;
+}
+
+.firstImg {
+    float: right;
+    max-height: 190px;
+    border: solid;
+    padding: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.75);
+}
+
+.secondImg {
+    float: left;
+    border: solid;
+    padding: 5px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 29px -3px rgba(0,0,0,0.75);
+}
+
+blockquote {
+    float: right;
+    border-left: 2px solid gray;
+    padding-left: 5px;
+    width: 40%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    padding-top: 15px;
+}
