@@ -1,0 +1,408 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+section, footer{
+    margin: 0;
+    padding: 0px 150px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: #A24EA2;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.title-text{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 8px;
+    font-stretch: semi-condensed;
+    color: #51575B;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+}
+
+.menu{
+    display: none;
+}
+
+.menu > i{
+    font-size: smaller;
+    padding-right: 10px;
+} 
+
+li{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.nav > li{
+    font-family: 'Georgia', serif;
+    margin: 10px;
+}
+
+.need{
+    position: relative;
+    left: 100px;
+    font-family: 'Georgia', serif;
+    width: 75%;
+}
+
+.need > p{
+    text-align: left;
+}
+
+.project{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+i{
+    font-size: 150px;
+    margin-left: 20px;
+    float: right;
+    padding-right: 30px;
+}
+
+img{
+    width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.team-header{
+    font-size: 30px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.team-header:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+}
+
+.team-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.team-article > p{
+    max-width: 250px;
+}
+
+.dude{
+    max-width: 180px;
+}
+
+.name{
+    margin-top: 5px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+.jobTitle{
+    color: #A7A5A7;
+}
+
+.description{
+    color: #191919;
+    font-style: italic;
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+}
+
+.sign-up{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #68347B;
+    
+}
+
+.sign-up > h1{
+    color: white;
+}
+
+.sign-up > h1:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+}
+
+.sign-up > form > button{
+    margin-bottom: 20px;
+}
+
+input, button{
+    border-radius: 2px;
+    border: 0.5px solid #333333;
+    padding: 5px;
+}
+
+.testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.testimonials > h2{
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.testimonials > h2:after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 20px;
+    border-bottom: 2px solid black;
+}
+
+.testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    max-width: 245px;
+    margin: 0px 50px;
+    margin-bottom: 30px;
+}
+
+.testDescription{
+    max-width: 300px;
+}
+
+.testDescription, .testJobTitle{
+    color: #777777;
+    font-style: italic;
+}
+
+.testName{
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-description{
+    max-width: 260px;
+    text-align: left;
+}
+
+footer > article > ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer-nav{
+    width: 250px;
+}
+
+.sitemap, .contacts-header{
+    position: relative;
+    left: 40px;
+}
+
+.relative{
+    position: relative;
+    bottom: 72px;
+    left: 130px;
+}
+
+.contacts > ul > li > i{
+    font-size: smaller;
+    display: contents;
+}
+
+
+@media all and (max-width: 1000px){
+    .menu{
+        display: flex;
+    }
+
+    .need{
+        position: unset;
+    }
+
+    section, footer{
+        padding: 10px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .team-article, .testimonial{
+        max-width: 250px;
+    }
+
+    footer{
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .footer-description{
+        max-width: 400px;
+    }
+}
+
+@media all and (max-width: 720px){
+    .testimonial{
+        max-width: 200px;
+    }
+}
+
+@media all and (max-width: 620px){
+    .menu{
+        display: flex;
+    }
+
+    .need{
+        position: unset;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .team-article, .testimonial{
+        margin: 20px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .menu{
+        display: flex;
+    }
+
+    .need{
+        position: unset;
+    }
+
+    .need > i{
+        font-size: 100px;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .team-article, .testimonial{
+        margin: 30px;
+        max-width: 100px;
+    }
+}
+
+@media all and (max-width: 360px){
+    .need > h2{
+        font-size: 20px;
+    }
+
+    .need > i{
+        font-size: 80px;
+    }
+}
+
+@media all and (max-width: 300px){
+    .menu{
+        display: flex;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .need{
+        position: unset;
+    }
+
+    .need > i{
+        font-size: 70px;
+    }
+
+    .need > h2{
+        font-size: 20px;
+    }
+
+    .need > p{
+        font-size: 12px;
+    }
+
+    .team-article, .testimonial{
+        margin: 10px;
+        max-width: 60px;
+    }
+
+    img{
+        max-width: 60px;
+    }
+}
+
+@media all and (max-width: 220px){
+    .menu{
+        display: flex;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .need{
+        position: unset;
+    }
+
+    .team-article, .testimonial{
+        margin: 10px;
+        max-width: 50px;
+    }
+
+    img{
+        max-width: 50px;
+    }
+}
